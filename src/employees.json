@@ -1,0 +1,130 @@
+[
+    {
+      "id": 1,
+      "image": "https://vignette.wikia.nocookie.net/theoffice/images/b/be/Character_-_MichaelScott.PNG/revision/latest?cb=20200413224550",
+      "name": "Michael Scott",
+      "phone": "570-675-9087",
+      "email": "michael_scott@dundermifflin.com",
+      "dob": "March 16, 1965"
+    },
+    {
+        "id": 2,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/c/c5/Dwight_.jpg/revision/latest/scale-to-width-down/700?cb=20170701082424",
+        "name": "Dwight Shrute",
+        "phone": "570-635-9787",
+        "email": "info@schrutefarms.com",
+        "dob": "January 20, 1970"
+    },
+    {
+        "id": 3,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/e/e9/Character_-_JimHalpert.PNG/revision/latest/scale-to-width-down/249?cb=20200414162003",
+        "name": "Jim Halpert",
+        "phone": "570-275-7897",
+        "email": "jim_halpert@dundermifflin.com",
+        "dob": "October 1, 1978"
+    },
+    {
+        "id": 4,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/6/67/Pam_Beesley.jpg/revision/latest/scale-to-width-down/700?cb=20170701084358",
+        "name": "Pam Beesly",
+        "phone": "570-690-9066",
+        "email": "pam_beesly@dundermifflin.com",
+        "dob": "March 25, 1979"
+    },
+    {
+        "id": 5,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/0/0b/Angela_Martin.jpg/revision/latest/scale-to-width-down/700?cb=20170701090232",
+        "name": "Angela Martin",
+        "phone": "570-987-9077",
+        "email": "angela_martin@dundermifflin.com",
+        "dob": "November 11, 1974"
+    },
+    {
+        "id": 6,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/6/69/Kelly_Kapoor.jpg/revision/latest/scale-to-width-down/700?cb=20170701090501",
+        "name": "Kelly Kapoor",
+        "phone": "570-567-4453",
+        "email": "kelly_kapoor@dundermifflin.com",
+        "dob": "February 5, 1980"
+    },
+    {
+        "id": 7,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/2/20/C0164512-C4C2-485C-9CB6-85B31F642090.jpeg/revision/latest/scale-to-width-down/700?cb=20200103213101",
+        "name": "Andy Bernard",
+        "phone": "570-249-9067",
+        "email": "andrew_bernard@dundermifflin.com",
+        "dob": "April 17, 1973"
+    },
+    {
+        "id": 8,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/e/e0/Character_-_RyanHoward.PNG/revision/latest?cb=20200414174545",
+        "name": "Ryan Howard",
+        "phone": "570-235-8067",
+        "email": "ryan_howard@dundermifflin.com",
+        "dob": "August 10, 1980"
+    },
+    {
+        "id": 9,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/5/55/2009TobyCropped.PNG/revision/latest/scale-to-width-down/699?cb=20170701082913",
+        "name": "Toby Flenderson",
+        "phone": "570-778-8856",
+        "email": "toby_flenderson@dundermifflin.com",
+        "dob": "February 22, 1963"
+    },
+    {
+        "id": 10,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/2/20/2009Creed.jpg/revision/latest/scale-to-width-down/700?cb=20170701085348",
+        "name": "Creed Bratton",
+        "phone": "570-334-9002",
+        "email": "creed_bratton@dundermifflin.com",
+        "dob": "November 1, 1925 "
+    },
+    {
+        "id": 11,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/4/49/2009DarrylCroppeed.PNG/revision/latest/scale-to-width-down/700?cb=20170701085636",
+        "name": "Darryl Philbin",
+        "phone": "570-334-1022",
+        "email": "darryl_philbin@dundermifflin.com",
+        "dob": "January 10, 1975"
+    },
+    {
+        "id": 12,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/b/b2/2009Kevincropped.PNG/revision/latest/scale-to-width-down/700?cb=20170701083657",
+        "name": "Kevin Malone",
+        "phone": "570-889-0087",
+        "email": "kevin_malone@dundermifflin.com",
+        "dob": "June 1, 1968"
+    },
+    {
+        "id": 13,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/9/90/2009Meredith.jpg/revision/latest/scale-to-width-down/700?cb=20170701084945",
+        "name": "Meredith Palmer",
+        "phone": "570-556-0977",
+        "email": "meredith_palmer@dundermifflin.com",
+        "dob": "November 12, 1959"
+    },
+    {
+        "id": 14,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/2/25/Oscar_Martinez.jpg/revision/latest/scale-to-width-down/700?cb=20170701085818",
+        "name": "Oscar Martinez",
+        "phone": "570-998-0453",
+        "email": "oscar_martinez@dundermifflin.com",
+        "dob": "March 8, 1972"
+    },
+    {
+        "id": 15,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/e/e6/Phyllis_Vance.jpg/revision/latest/scale-to-width-down/700?cb=20170701090016",
+        "name": "Phyllis Vance",
+        "phone": "570-990-9067",
+        "email": "phyllis_vance@dundermifflin.com",
+        "dob": "July 10, 1965"
+    },
+    {
+        "id": 16,
+        "image": "https://vignette.wikia.nocookie.net/theoffice/images/2/23/Stanley_Hudson.jpg/revision/latest/scale-to-width-down/700?cb=20170701085445",
+        "name": "Stanley Hudson",
+        "phone": "570-822-0670",
+        "email": "stanley_hudson@dundermifflin.com",
+        "dob": "February 1, 1958"
+    }
+  ]
