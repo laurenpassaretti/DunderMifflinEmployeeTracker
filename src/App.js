@@ -4,20 +4,37 @@ import './App.css';
 import Header from "./components/Header"
 import EmployeeTable from "./components/Table"
 import SearchBar from "./components/SearchBar"
-import Employee from "./employees.json"
+import EmployeeList from "./employees.json"
 import Table from 'react-bootstrap/Table'
 
 
 class App extends Component{
 
-  state = {Employee}
+  state = {
+    employees: EmployeeList,
+    filteredEmployees: [],
+    search: ""
+  }
+
+ filterEmployees = (e) => {
+  this.setState({
+    ...this.state,
+    search: e.target.value
+ })
+
+ employees.filter((employee) => {
+   // if employees name doesnt start with this letters or letters dont include
+ })
+}
+
+ 
   
   render() {
-    console.log(this.state.Employee)
+    console.log(this.state.EmployeeList)
     return (
       <div className="App">
         <Header />
-        <SearchBar />
+        <SearchBar searchProp={this.state.search} filterFunctionProp = {this.filterEmployees} />
         <EmployeeTable/>
 
       </div>

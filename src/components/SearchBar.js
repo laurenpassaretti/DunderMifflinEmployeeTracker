@@ -6,6 +6,7 @@ import FormControl from 'react-bootstrap/FormControl'
 
 
 function SearchBar(props){
+
     return(
        <div>
     <InputGroup className="mb-3">
@@ -13,12 +14,12 @@ function SearchBar(props){
       placeholder="Search for an Employee"
       aria-label="Recipient's username"
       aria-describedby="basic-addon2"
-      onChange = {props.handleInputChange}
-      value = {props.search}
+      onChange = {props.filterFunctionProp}
+      value = {props.searchProp}
       id ="search"
     />
     <InputGroup.Append>
-      <Button variant="outline-secondary" onClick = {props.handleInputChange}>Search</Button>
+      <Button variant="outline-secondary" onClick = {props.filterFunctionProp}>Search</Button>
     </InputGroup.Append>
   </InputGroup>
        </div>
