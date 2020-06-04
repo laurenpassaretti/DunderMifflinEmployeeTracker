@@ -17,20 +17,25 @@ class App extends Component{
   }
 
  filterEmployees = (e) => {
+   event.preventDefault()
   this.setState({
     ...this.state,
     search: e.target.value
  })
 
- employees.filter((employee) => {
-   // if employees name doesnt start with this letters or letters dont include
- })
+const filteredEmployees = this.state.employees.filter(employee => employee.name === "")
+this.setState(filteredEmployees)
+console.log(filteredEmployees)
 }
+  
+   // if employees name doesnt start with this letters or letters dont include
+
+
 
  
   
   render() {
-    console.log(this.state.EmployeeList)
+    
     return (
       <div className="App">
         <Header />
