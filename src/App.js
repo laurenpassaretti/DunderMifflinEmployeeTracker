@@ -23,9 +23,21 @@ class App extends Component{
     search: e.target.value
  })
 
-const filteredEmployees = this.state.employees.filter(employee => employee.name === "")
-this.setState(filteredEmployees)
-console.log(filteredEmployees)
+ 
+
+//  if (search === employee.name) {
+// filteredEmployees = this.state.employees.filter(employee => employee.name === search)
+// this.setState(filteredEmployees)
+//  }
+let filteredEmployees =  this.state.employees
+const superFilteredEmployees = filteredEmployees.filter(employee =>  
+  employee.firstName === this.state.search || 
+  employee.lastName === this.state.search 
+  )
+
+this.setState({
+  filteredEmployees: superFilteredEmployees})
+
 }
   
    // if employees name doesnt start with this letters or letters dont include
@@ -40,7 +52,7 @@ console.log(filteredEmployees)
       <div className="App">
         <Header />
         <SearchBar searchProp={this.state.search} filterFunctionProp = {this.filterEmployees} />
-        <EmployeeTable/>
+        <EmployeeTable filterEmployees = {this.state.filteredEmployees}/>
 
       </div>
     );

@@ -4,7 +4,7 @@ import EmployeeData from "../employees.json"
 
 const useSortableData = (items,config = null) => {
     const [sortConfig, setSortConfig] = React.useState(config); 
-
+console.log("Use Sort Data items", items)
     const sortedItems =  React.useMemo(() => {
         let sortedOfficeWorkers = [...items]; 
         if (sortConfig !== null){
@@ -37,7 +37,7 @@ return { items: sortedItems, requestSort, sortConfig};
 };
 
 const EmployeeTable = (props) => {
-
+console.log("EmployeeTable props", props)
     const {items, requestSort, sortConfig} = useSortableData(props.officeWorkers); 
     const getClassNamesFor = (name) => {
         if (!sortConfig) {
@@ -64,7 +64,7 @@ const EmployeeTable = (props) => {
                     return (
                     <tr key = {item.id}>
                          <td><img alt="employee badge"src={item.image} style={{width:"150px",height:"auto"}}/></td>
-                            <td>{item.name}</td>
+                    <td>{item.firstName} {item.lastName}</td>
                              <td>{item.phone}</td>
                             <td>{item.email}</td>
                             <td>{item.dob}</td>
@@ -78,11 +78,13 @@ const EmployeeTable = (props) => {
     ); 
 }; 
 
-export default function App () {
+export default function App (props) {
+    console.log("Render props", props)
     return (
         <div className="App">
             <EmployeeTable
-            officeWorkers = {EmployeeData}
+            officeWorkers = {props.filterEmployees.length > 0 ? props.filterEmployees: EmployeeData}
+            // officeWorkers = {EmployeeData}
             />
         </div>
     ); 
