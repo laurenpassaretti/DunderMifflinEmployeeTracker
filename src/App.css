@@ -14,10 +14,11 @@
   padding: none; 
 }
 button{
-  background-color: #20B2AA; 
+  background-color: #17a2b8; 
   color: white;
-  border-color:#20B2AA ;
+  border-color:#17a2b8;
   font-style: bold;
+  border: none;
 }
 
 img {

@@ -39,11 +39,11 @@ return { items: sortedItems, requestSort, sortConfig};
 const EmployeeTable = (props) => {
 console.log("EmployeeTable props", props)
     const {items, requestSort, sortConfig} = useSortableData(props.officeWorkers); 
-    const getClassNamesFor = (name) => {
+    const getClassNamesFor = (lastName) => {
         if (!sortConfig) {
             return; 
         }
-        return sortConfig.key === name ? sortConfig.direction : undefined; 
+        return sortConfig.key === lastName ? sortConfig.direction : undefined; 
     };
     
     return (
@@ -52,7 +52,7 @@ console.log("EmployeeTable props", props)
             <thead>
             <tr>
         <th><button>Image</button></th>
-       <th><button type="button" onClick={() => requestSort('name')} className ={getClassNamesFor('name')}>Name</button></th>
+       <th><button type="button" onClick={() => requestSort('lastName')} className ={getClassNamesFor('lastName')}>Name</button></th>
        <th><button type="button" onClick={() => requestSort('phone')} className ={getClassNamesFor('phone')}>Phone</button></th>
        <th><button type="button" onClick={() => requestSort('email')} className ={getClassNamesFor('email')}>Email</button></th>
         <th><button type="button" onClick={() => requestSort('dob')} className ={getClassNamesFor('dob')}>DOB</button></th>

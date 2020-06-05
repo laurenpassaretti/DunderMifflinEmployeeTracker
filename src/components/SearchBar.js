@@ -19,7 +19,7 @@ function SearchBar(props){
       id ="search"
     />
     <InputGroup.Append>
-      <Button variant="outline-secondary" onClick = {props.filterFunctionProp}>Search</Button>
+      <Button variant="info" onClick = {props.filterFunctionProp}>Search</Button>
     </InputGroup.Append>
   </InputGroup>
        </div>
