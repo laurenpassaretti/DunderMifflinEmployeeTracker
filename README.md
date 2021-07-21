@@ -7,6 +7,6 @@ This assignment was really exciting for me and I enjoyed working with React. I l
 
 Here is the link to the deployed application: 
 
-https://nameless-journey-38571.herokuapp.com/
+https://employee-directory-scranton.herokuapp.com/
 
 
